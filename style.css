@@ -1,48 +1,69 @@
-section {
-  height: fit-content;
-  width: 100%;
-  border: 3px solid black;
-}
-
-.boks {
-  display: inline-block;
-  width: 15%;
-  border: 1px solid black;
-  height: fit-content;
-}
-
 :root {
-  --colora-: #503b2f;
-  --colorb-: #0c2619;
-  --colorc-: #ffffff;
-  --colord-: #56524e;
-  --colore-: #3d534a;
-  --colorf-: #000000;
-  --color1-: #203477;
-  --color2-: #020335;
-  --color3-: #dac9b4;
-  --color4-: #4d1736;
-  --color5-: #ab3f5f;
-  --color6-: #761b46;
+    --color-a-: #503b2f;
+    --colorb-: #0c2619;
+    --colorc-: #ffffff;
+    --colord-: #56524e;
+    --colore-: #3d534a;
+    --colorf-: #000000;
+    --color1-: #203477;
+    --color2-: #020335;
+    --color3-: #dac9b4;
+    --color4-: #4d1736;
+    --color5-: #ab3f5f;
+    --color6-: #761b46;
 }
+
+section {
+    height: fit-content;
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+}
+
+.books {
+    display: inline-block;
+    width: 15%;
+    border: 2px solid black;
+    height: fit-content;
+    margin: 8px;
+    padding: 8px;
+}
+
+.one-a {
+    color: var(--color1-);
+    background-color: var(--color-a-);
+}
+
+.one-b {
+    color: var(--color1-);
+    background-color: var(--colorb-);
+}
+
+
 h1 {
-  font-family: "Almendra Display", cursive;
+    font-family: "Almendra Display", cursive;
 }
+
 h2 {
-  font-family: "Almendra SC", serif;
+    font-family: "Almendra SC", serif;
 }
+
 h3 {
-  font-family: "Berkshire Swash", cursive;
+    font-family: "Berkshire Swash", cursive;
 }
+
 h4 {
-  font-family: "Cardo", serif;
+    font-family: "Cardo", serif;
 }
+
 h5 {
-  font-family: "Fondamento", cursive;
+    font-family: "Fondamento", cursive;
 }
+
 p {
-  font-family: "Uncial Antiqua", cursive;
+    font-family: "Uncial Antiqua", cursive;
 }
+
 /*
 font-family: 'Almendra Display', cursive;
 font-family: 'Almendra SC', serif;
